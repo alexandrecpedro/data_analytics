@@ -21,7 +21,8 @@
 |  04  | [Exploratory Data Analysis - EDA](./topics/04-exploratory_data_analysis.md) |
 |  05  | [Predictive Analytics](./topics/05-predictive_analytics.md)                 |
 |  06  | [Prescriptive Analytics](./topics/06-prescriptive_analytics.md)             |
-|  07  | [Variables - Quantitative vs Qualitative](./topics/07-variable_types.md)    |
+|  07  | [Variables - Quantitative vs Qualitative](topics/07-types_of_variables.md)  |
+|  08  | [Fixação de conteúdo - avaliação](./topics/08-knowledge_consolidation.md)   |
 
 ## 3. COMPARISON BETWEEN ANALYSIS TYPES
 
@@ -31,3 +32,6 @@
 |   Diagnóstica   | Por que aconteceu?   |    Média     | Python, R, Tableau   | 10-30% redução custos  | 1-3 meses              |
 |    Preditiva    | O que vai acontecer? |     Alta     | ML, Python, Azure ML | 10-15% aumento receita | 3-6 meses              |
 |   Prescritiva   | O que devemos fazer? |  Muito Alta  | IA, Otimização       | 15-30% redução custos  | 6-12 meses             |
+
+## 4. TYPES OF VARIABLES
+
