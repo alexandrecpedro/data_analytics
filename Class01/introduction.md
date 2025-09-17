@@ -36,3 +36,7 @@
 ## 4. TYPES OF VARIABLES
 
 ![Comparação entre Variáveis Qualitativas e Quantitativas](./assets/comparison-quantitative_qualitative_variables.png)
+
+## 5. SUMMARY
+
+![Mapa Mental - Introdução à Análise de Dados](./assets/Mind_Map-Data_analysis_types.jpg)
