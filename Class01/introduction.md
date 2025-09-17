@@ -35,3 +35,4 @@
 
 ## 4. TYPES OF VARIABLES
 
+![Comparação entre Variáveis Qualitativas e Quantitativas](./assets/comparison-quantitative_qualitative_variables.png)
