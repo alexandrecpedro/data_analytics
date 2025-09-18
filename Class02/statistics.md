@@ -4,10 +4,10 @@
 
 ## 1. CLASSES
 
-| Part | Sheets / Excel    |
-|:----:|-------------------|
-|  01  | [](assets/files/) |
-|  02  | []()              |
+| Part | Sheets / Excel                                                                                  |
+|:----:|-------------------------------------------------------------------------------------------------|
+|  01  | [Statistics - Excel structure](./assets/files/sheets/Class02.1-Statistics_Excel_structure.xlsx) |
+|  02  | []()                                                                                            |
 
 ## .
 
