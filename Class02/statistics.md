@@ -4,10 +4,13 @@
 
 ## 1. CLASSES
 
-| Part | Sheets / Excel                                                                                  |
-|:----:|-------------------------------------------------------------------------------------------------|
-|  01  | [Statistics - Excel structure](./assets/files/sheets/Class02.1-Statistics_Excel_structure.xlsx) |
-|  02  | []()                                                                                            |
+| Part | Sheets / Excel                                                                                                                     |
+|:----:|------------------------------------------------------------------------------------------------------------------------------------|
+|  01  | [Statistics - Excel structure](./assets/files/sheets/Class02.1-Statistics_Excel_structure.xlsx)                                    |
+|  02  | [Conditional Formatting, PROCV, Cleaning data, Dynamic Table](./assets/files/sheets/Class02.2-CondForm-Cleaning-TabDin-Procv.xlsx) |
+|  03  | []()                                                                                                                               |
+|  04  | []()                                                                                                                               |
+|  05  | []()                                                                                                                               |
 
 ## .
 
