@@ -8,7 +8,7 @@
 |:----:|------------------------------------------------------------------------------------------------------------------------------------|
 |  01  | [Statistics - Excel structure](./assets/files/sheets/Class02.1-Statistics_Excel_structure.xlsx)                                    |
 |  02  | [Conditional Formatting, PROCV, Cleaning data, Dynamic Table](./assets/files/sheets/Class02.2-CondForm-Cleaning-TabDin-Procv.xlsx) |
-|  03  | []()                                                                                                                               |
+|  03  | [Dashboards - part 01](./assets/files/sheets/Class02.3-Dashboard_part01.xlsx)                                                      |
 |  04  | []()                                                                                                                               |
 |  05  | []()                                                                                                                               |
 
