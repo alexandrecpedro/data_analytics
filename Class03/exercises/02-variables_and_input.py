@@ -9,8 +9,6 @@ table3 = PrettyTable(field_names=FIELD_NAMES_2)
 table4 = PrettyTable(field_names=FIELD_NAMES_2)
 
 # =========== EXERCISE 1 ===========
-
-# 1. VARIABLES
 nome_cidade = "São Paulo"
 temperatura = 23.5
 table.add_row(['EXERCISE 1', '', ''])
