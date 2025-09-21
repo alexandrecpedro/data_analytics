@@ -13,16 +13,16 @@
 
 ## 2. GOING DEEP...
 
-| Part | Description                                                                 |
-|:----:|-----------------------------------------------------------------------------|
-|  01  | [Data Analytics Overview](./topics/01-overview.md)                          |
-|  02  | [Descriptive Analytics](./topics/02-descriptive_analytics.md)               |
-|  03  | [Diagnostic Analytics](./topics/03-diagnostic_analytics.md)                 |
-|  04  | [Exploratory Data Analysis - EDA](./topics/04-exploratory_data_analysis.md) |
-|  05  | [Predictive Analytics](./topics/05-predictive_analytics.md)                 |
-|  06  | [Prescriptive Analytics](./topics/06-prescriptive_analytics.md)             |
-|  07  | [Variables - Quantitative vs Qualitative](topics/07-types_of_variables.md)  |
-|  08  | [Fixação de conteúdo - avaliação](./topics/08-knowledge_consolidation.md)   |
+| Part | Description                                                                    |
+|:----:|--------------------------------------------------------------------------------|
+|  01  | [Data Analytics Overview](./topics/01-overview.md)                             |
+|  02  | [Descriptive Analytics](./topics/02-descriptive_analytics.md)                  |
+|  03  | [Diagnostic Analytics](./topics/03-diagnostic_analytics.md)                    |
+|  04  | [Exploratory Data Analysis - EDA](./topics/04-exploratory_data_analysis.md)    |
+|  05  | [Predictive Analytics](./topics/05-predictive_analytics.md)                    |
+|  06  | [Prescriptive Analytics](./topics/06-prescriptive_analytics.md)                |
+|  07  | [Variables - Quantitative vs Qualitative](topics/07-types_of_variables.md)     |
+|  08  | [Knowledge consolidation - assessment](./topics/08-knowledge_consolidation.md) |
 
 ## 3. COMPARISON BETWEEN ANALYSIS TYPES
 
