@@ -29,7 +29,7 @@
 |:----:|----------------------------------------------------------------|
 |  01  | [Exercises - Math Operators](exercises/01-operators.py)        |
 |  02  | [Exercises - Variables](./exercises/02-variables_and_input.py) |
-|  03  | [Exercises - Decisions](./exercises/03-boolean.py)             |
+|  03  | [Exercises - Boolean](./exercises/03-boolean.py)               |
 |  04  | [Exercises - Loop While](./exercises/05-loop_while.py)         |
 |  05  | [Exercises - Loop For](./exercises/06-loop_for.py)             |
 |  06  | [Exercises - ](./exercises/07-loop_while_true.py)              |
