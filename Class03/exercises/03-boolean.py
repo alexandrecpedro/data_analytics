@@ -7,7 +7,6 @@ table = PrettyTable(field_names=FIELD_NAMES)
 locale.setlocale(category=locale.LC_ALL, locale='pt_BR.UTF-8')
 
 # =========== EXERCISE 1 ===========
-
 value_a = 15
 value_b = 15
 result = value_a < value_b

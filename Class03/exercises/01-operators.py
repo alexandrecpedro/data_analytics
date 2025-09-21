@@ -53,4 +53,3 @@ table.add_row(['A ordem de predecessão dos operadores', 'potenciação; depois,
 table.add_row([f'{VALUE7} + {VALUE8} * {VALUE9}', expression_value])
 
 print(table)
-

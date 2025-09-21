@@ -35,6 +35,3 @@ table4.add_row(['EXERCISE 4', ''])
 table4.add_row(['Number', number])
 table4.add_row([f'Square root of {number}', square_root_number])
 print(table4)
-
-
-
