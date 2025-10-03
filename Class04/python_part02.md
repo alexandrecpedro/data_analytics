@@ -9,7 +9,8 @@
 |  03  | [Data Structures - Modules](./codes/03-modules/modules.md)                  |
 |  04  | [Data Structures - Dict](./codes/04-dict/dict.md)                           |
 |  05  | [Data Structures - Tuples](./codes/05-tuples/tuple.md)                      |
-|  06  | [Knowledge consolidation - assessment](./topics/knowledge_consolidation.md) |
+|  06  | [Data Structures - Sets](./codes/06-sets/sets.md)                           |
+|  07  | [Knowledge consolidation - assessment](./topics/knowledge_consolidation.md) |
 
 ## 2. PROPOSED EXERCISES
 
