@@ -1,0 +1,2 @@
+File Writing
+accents: á, é, í, Á, É, Í, ç, Ç
