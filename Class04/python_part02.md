@@ -2,15 +2,16 @@
 
 ## 1. GOING DEEP...
 
-| Part | Description                                                                 |
-|:----:|-----------------------------------------------------------------------------|
-|  01  | [Data Structures - List](./codes/01-lists/list.md)                          |
-|  02  | [Data Structures - String](./codes/02-strings/string.md)                    |
-|  03  | [Data Structures - Modules](./codes/03-modules/modules.md)                  |
-|  04  | [Data Structures - Dict](./codes/04-dict/dict.md)                           |
-|  05  | [Data Structures - Tuples](./codes/05-tuples/tuple.md)                      |
-|  06  | [Data Structures - Sets](./codes/06-sets/sets.md)                           |
-|  07  | [Knowledge consolidation - assessment](./topics/knowledge_consolidation.md) |
+| Part | Description                                                                                 |
+|:----:|---------------------------------------------------------------------------------------------|
+|  01  | [Data Structures - List](./codes/01-lists/list.md)                                          |
+|  02  | [Data Structures - String](./codes/02-strings/string.md)                                    |
+|  03  | [Data Structures - Modules](./codes/03-modules/modules.md)                                  |
+|  04  | [Data Structures - Dict](./codes/04-dict/dict.md)                                           |
+|  05  | [Data Structures - Tuples](./codes/05-tuples/tuple.md)                                      |
+|  06  | [Data Structures - Sets](./codes/06-sets/sets.md)                                           |
+|  07  | [Data Structures - List Comprehension](./codes/07-list_comprehension/list_comprehension.md) |
+|  08  | [Knowledge consolidation - assessment](./topics/knowledge_consolidation.md)                 |
 
 ## 2. PROPOSED EXERCISES
 
