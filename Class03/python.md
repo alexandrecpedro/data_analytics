@@ -1,15 +1,15 @@
 # INTRODUCTION TO PYTHON
 
-## 1. PYTHON
+## 1. PYTHON PROGRAMMING LANGUAGE
 
-- Criado em 1991 por Guido van Rossum
-- Linguagem que atende a vários propósitos
-- Características da linguagem:
-  - Alto nível
-  - Open source
-  - Multiplataforma
-  - Fácil de aprender
-  - Amplamente utilizada para área de dados e pesquisas
+- Established in 1991 by its creator, Guido van Rossum
+- A multipurpose (or general-purpose) language engineered to fulfil a diverse range of application requirements
+- Core Characteristics:
+  - High-level language
+  - Open source (maintains a collaborative and publicly accessible structure)
+  - Multi-platform
+  - Easy to acquire proficiency in (straightforward to master)
+  - Extensively employed for applications within data science and academic research methodologies
 
 ## 2. GOING DEEP...
 
