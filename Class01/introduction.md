@@ -2,14 +2,14 @@
 
 ## 1. FOCUS
 
-- Visão sobre a área
-- Definir os tipos de análise e exemplos práticos
-  - Análise descritiva
-  - Análise exploratória
-  - Análise explanatória
-  - Análise preditiva
-  - Análise prescritiva
-- Habilidades necessárias para poder seguir na área
+- Overview of the Domain (or Strategic Outlook of the Field)
+- Definition of Analytical Typologies and Practical Illustrations
+  - Descriptive Analysis
+  - Exploratory Analysis
+  - Explanatory Analysis
+  - Predictive Analysis
+  - Prescriptive Analysis
+- Essential Competencies for Professional Advancement in this Field
 
 ## 2. GOING DEEP...
 
@@ -26,12 +26,12 @@
 
 ## 3. COMPARISON BETWEEN ANALYSIS TYPES
 
-| TIPO DE ANÁLISE | PERGUNTA RESPONDIDA  | COMPLEXIDADE | FERRAMENTAS          | ROI MÉDIO              | TEMPO DE IMPLEMENTAÇÃO |
-|:---------------:|----------------------|:------------:|----------------------|------------------------|------------------------|
-|   Descritiva    | O que aconteceu?     |    Baixa     | Excel, Power BI, GA4 | 15-20% eficiência      | 1-4 semanas            |
-|   Diagnóstica   | Por que aconteceu?   |    Média     | Python, R, Tableau   | 10-30% redução custos  | 1-3 meses              |
-|    Preditiva    | O que vai acontecer? |     Alta     | ML, Python, Azure ML | 10-15% aumento receita | 3-6 meses              |
-|   Prescritiva   | O que devemos fazer? |  Muito Alta  | IA, Otimização       | 15-30% redução custos  | 6-12 meses             |
+| ANALYTICS TYPE | QUESTION ANSWERED  | COMPLEXITY | TOOLS                | AVERAGE ROI             | IMPLEMENTATION TIMEFRAME |
+|:--------------:|--------------------|:----------:|----------------------|-------------------------|--------------------------|
+|  Descriptive   | What happened?     |    Low     | Excel, Power BI, GA4 | 15-20% efficiency gain  | 1-4 weeks                |
+|   Diagnostic   | Why did it happen? |   Medium   | Python, R, Tableau   | 10-30% cost reduction   | 1-3 months               |
+|   Predictive   | What will happen?  |    High    | ML, Python, Azure ML | 10-15% revenue increase | 3-6 months               |
+|  Prescriptive  | What should we do? | Very High  | AI, Optimisation     | 15-30% cost reduction   | 6-12 months              |
 
 ## 4. TYPES OF VARIABLES
 
