@@ -5,7 +5,7 @@ from typing import Final
 # 1. APPLICATION CONFIGURATION CONSTANTS
 # ===============================================================================
 # Final type hint is used to signify that these variables are constants and should not be reassigned.
-FILEPATH: Final[str] = '../assets/vendas.txt'
+FILEPATH: Final[str] = '../assets/arquivo.txt'
 ENCODING: Final[str] = 'utf-8'
 SEPARATOR: Final[str] = ';'
 MODE: Final[str] = 'r'

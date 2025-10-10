@@ -1,0 +1,11 @@
+Fernanda;Marketing;6425.29
+Fernanda;Logística;5075.2
+Igor;RH;9229.19
+Gabriel;Vendas;2638.04
+Juliana;Financeiro;9935.21
+Paulo;RH;18319.09
+Eduardo;Vendas;13561.92
+Nicolas;Marketing;3243.97
+Juliana;Vendas;11859.78
+Karen;TI;9822.86
+Vinicius;Logística;12327.84

@@ -1,0 +1,10 @@
+Nome;Departamento;ValorVendas
+Helena;Logística;17019.12
+Sergio;RH;12212.26
+Tatiane;RH;1467.6
+Vinicius;Vendas;17008.33
+Helena;Marketing;3682.36
+Bruno;Vendas;12283.53
+Juliana;Vendas;5998.61
+Nicolas;TI;6097.79
+Olivia;Financeiro;11689.61
