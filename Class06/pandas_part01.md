@@ -20,9 +20,10 @@ and task tracking
 
 ## 3. PROPOSED PROJECT
 
-| Part | Description                                  |
-|:----:|----------------------------------------------|
-|  01  | [Vehicle Rental Company](project/main.ipynb) |
+| Part | Description                                                                     |
+|:----:|---------------------------------------------------------------------------------|
+|  01  | [Vehicle Rental Company - Project](project/vehicle_inventory_stratification.md) |
+|  02  | [Vehicle Rental Company - Code](project/main.ipynb)                             |
 
 ## 4. GOING DEEP...
 

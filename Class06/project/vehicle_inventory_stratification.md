@@ -60,3 +60,35 @@ The **Pandas library** in Python will be utilised as the primary tool to execute
 To maintain transparency and ensure seamless workflow integration, the **Trello platform** will be systematically employed for comprehensive project organisation, task allocation, and progress tracking.
 
 [Trello - Project](https://trello.com/b/ImHUT7F5/pandas-course)
+
+---
+## ▶️ 6. Execution Instructions
+The project is implemented in Python and requires the Pandas library for data manipulation.
+
+### Prerequisites
+You must have Python installed. To install the required library, run the following command in your terminal:
+
+```bash
+  pip install pandas matplotlib
+```
+
+Clone the project from GitHub:
+```bash
+    git clone [Vehicle Rental Company project](https://github.com/alexandrecpedro/data_analytics.git)
+```
+
+Enter the folder:
+```bash
+    cd Class06/project
+```
+
+### Running the Script
+Once the dependencies are installed, you can execute the data stratification process using the main notebook: `main.ipynb`
+
+This script will:
+
+1. Read a simulated data (base_automoveis.csv).
+
+2. Perform all stratification, analysis, and filtering steps.
+
+3. Export the final structured dataset to a new file named `stratified_inventory_summary.csv`.
