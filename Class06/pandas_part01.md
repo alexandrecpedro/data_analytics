@@ -27,6 +27,8 @@ and task tracking
 
 ## 4. GOING DEEP...
 
-| Part | Description                                                                 |
-|:----:|-----------------------------------------------------------------------------|
-|  01  | [Knowledge consolidation - assessment](./topics/knowledge_consolidation.md) |
+| Part | Description                                                                                                  |
+|:----:|--------------------------------------------------------------------------------------------------------------|
+|  01  | [Creating, Reading and Writing](codes/01-creating_reading_writing/creating_reading_writing.md)               |
+|  02  | [Indexing, Selecting and Assigning](codes/02-indexing_selecting_assigning/indexing_selecting_assigning.md)   |
+|  03  | [Knowledge consolidation - assessment](./topics/knowledge_consolidation.md)                                  |
