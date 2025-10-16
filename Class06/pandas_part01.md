@@ -20,16 +20,17 @@ and task tracking
 
 ## 3. PROPOSED PROJECT
 
-| Part | Description                                                                     |
-|:----:|---------------------------------------------------------------------------------|
-|  01  | [Vehicle Rental Company - Project](project/vehicle_inventory_stratification.md) |
-|  02  | [Vehicle Rental Company - Code](project/main.ipynb)                             |
+| Part | Description                                                                       |
+|:----:|-----------------------------------------------------------------------------------|
+|  01  | [Vehicle Rental Company - Project](./project/vehicle_inventory_stratification.md) |
+|  02  | [Vehicle Rental Company - Code](./project/main.ipynb)                             |
 
 ## 4. GOING DEEP...
 
 | Part | Description                                                                                                  |
 |:----:|--------------------------------------------------------------------------------------------------------------|
-|  01  | [Creating, Reading and Writing](codes/01-creating_reading_writing/creating_reading_writing.md)               |
-|  02  | [Indexing, Selecting and Assigning](codes/02-indexing_selecting_assigning/indexing_selecting_assigning.md)   |
-|  03  | [Indexing, Selecting and Assigning](codes/03-summary_functions_maps/summary_functions_maps.md)               |
-|  04  | [Knowledge consolidation - assessment](./topics/knowledge_consolidation.md)                                  |
+|  01  | [Creating, Reading and Writing](./codes/01-creating_reading_writing/creating_reading_writing.md)             |
+|  02  | [Indexing, Selecting and Assigning](./codes/02-indexing_selecting_assigning/indexing_selecting_assigning.md) |
+|  03  | [Summary Functions and Maps](./codes/03-summary_functions_maps/summary_functions_maps.md)                    |
+|  04  | [Grouping and Sorting](./codes/04-grouping_sorting/grouping_sorting.md)                                      |
+|  05  | [Knowledge consolidation - assessment](./topics/knowledge_consolidation.md)                                  |
