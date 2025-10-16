@@ -31,4 +31,5 @@ and task tracking
 |:----:|--------------------------------------------------------------------------------------------------------------|
 |  01  | [Creating, Reading and Writing](codes/01-creating_reading_writing/creating_reading_writing.md)               |
 |  02  | [Indexing, Selecting and Assigning](codes/02-indexing_selecting_assigning/indexing_selecting_assigning.md)   |
-|  03  | [Knowledge consolidation - assessment](./topics/knowledge_consolidation.md)                                  |
+|  03  | [Indexing, Selecting and Assigning](codes/03-summary_functions_maps/summary_functions_maps.md)               |
+|  04  | [Knowledge consolidation - assessment](./topics/knowledge_consolidation.md)                                  |
