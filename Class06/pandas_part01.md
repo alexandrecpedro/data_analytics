@@ -33,4 +33,6 @@ and task tracking
 |  02  | [Indexing, Selecting and Assigning](./codes/02-indexing_selecting_assigning/indexing_selecting_assigning.md) |
 |  03  | [Summary Functions and Maps](./codes/03-summary_functions_maps/summary_functions_maps.md)                    |
 |  04  | [Grouping and Sorting](./codes/04-grouping_sorting/grouping_sorting.md)                                      |
-|  05  | [Knowledge consolidation - assessment](./topics/knowledge_consolidation.md)                                  |
+|  05  | [Data Types and Missing Values](./codes/05-data_types_missing_values/data_types_missing_values.md)           |
+|  06  | [Renaming and Combining](./codes/06-renaming_combining/renaming_combining.md)                                |
+|  07  | [Knowledge consolidation - assessment](./topics/knowledge_consolidation.md)                                  |
