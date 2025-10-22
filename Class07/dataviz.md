@@ -14,7 +14,7 @@ to see and understand trends, outliers, and patterns in data.
 |  02  | [Plot Library - Matplotlib](modules/02-matplotlib/main.ipynb)               |
 |  03  | [Plot Library - Plotly](modules/03-plotly/main.ipynb)                       |
 |  04  | [Plot Library - Seaborn](modules/04-seaborn/seaborn.md)                     |
-|  05  | [Plot Types](modules/05-plot_types/plot_types.md)                           |
+|  05  | [Plot Types](modules/05-plot_types/main.ipynb)                              |
 |  06  | [Knowledge consolidation - assessment](./topics/knowledge_consolidation.md) |
 
 ## 3. PROPOSED EXERCISES
