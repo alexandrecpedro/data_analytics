@@ -2,99 +2,90 @@
 
 ## QUESTION 1
 
-Para salvar um DataFrame chamado 'selecao' em um arquivo chamado 'export.csv', sem incluir a coluna de índice e 
-usando ponto e vírgula como separador, qual comando é o correto?
+Você tem um DataFrame agregado chamado 'aprovados_curso'contendo nomes de cursos em uma coluna 'Curso' 
+e contagens numa coluna 'Aprovado'. 
+Como você cria um gráfico de pizza onde as fatias são rotuladas como nomes reais dos cursos?
 
-- ❌ selecao.to_csv('export.csv', index=None, delimiter=',')
-- ❌ selecao.write_csv('export.csv', index=False, sep=';')
-- ✅ selecao.to_csv('export.csv', index=False, sep=';')
-- ❌ selecao.save_csv('export.csv', no_index=True, separator=';')
+- ✅ aprovados_curso.plot(kind='pie', y='Aprovado',labels=aprovados_curso['Curso'])
+- ❌ aprovados_curso.plot(kind='pie', y='Aprovado',index='Curso')
+- ❌ aprovados_curso.set_index('Curso').plot(kind='pie',y='Aprovado')
+- ❌ aprovados_curso.plot(kind='pie', y='Aprovado',legend='Curso')
 
 ## QUESTION 2
 
-No início do projeto, qual comando é utilizado para importar a biblioteca pandas com o alias 'pd', que é uma 
-convenção comum?
+Qual é a maneira mais direta de criar um gráfico de barras mostrando o número de alunos por curso usando a 
+funcionalidade de plotagem integrada no Pandas?
 
-- ✅ import pandas as pd
-- ❌ load library pandas as pd
-- ❌ import pd from pandas
-- ❌ require('pandas').as('pd')
+- ❌ plt.bar(df['Curso'].unique(),df['Curso'].value_counts())
+- ❌ df.groupby('Curso').plot(kind='bar')
+- ✅ df['Curso'].value_counts().plot(kind='bar')
+- ❌ df['Curso'].plot(kind='bar')
 
 ## QUESTION 3
 
-Qual é a sintaxe correta para selecionar apenas as colunas 'modelo' e 'montadora' de um DataFrame chamado 'dados'?
+Qual linha de código cria corretamente uma nova coluna booleana 'Aprovado' que é 'True' somente se 
+'Nota' for pelo menos 7 e 'Presenca' for pelo menos 7,5?
 
-- ❌ dados.select('modelo' , 'montadora')
-- ❌ dados['modelo', 'montadora']
-- ✅ dados[['modelo', 'montadora']]
-- ❌ dados.select('modelo' e 'montadora')
+- ❌ df['Aprovado']= (df['Nota'] >= 7) and (df['Presenca'] >= 7.5)
+- ❌ df['Aprovado']= df.where((df['Nota'] >= 7) & (df['Presenca'] >= 7.5))
+- ✅ df['Aprovado']= (df['Nota'] >= 7) & (df['Presenca'] >= 7.5)
+- ❌ df.loc[(df['Nota']>= 7) & (df['Presenca'] >= 7.5), 'Aprovado'] = True
 
 ## QUESTION 4
 
-Qual função do pandas é usada para ler dados de um arquivo CSV a partir de uma URL ou de um caminho local 
-e carregá-los em um DataFrame?
+Para remover permanentemente uma coluna chamada 'Projetos' de um DataFrame chamado 'df', qual comando está correto?
 
-- ✅ pd.read_csv()
-- ❌ pd.get_csv()
-- ❌ pd.open_csv()
-- ❌ pd.load_csv()
+- ✅ df.drop('Projetos',axis=1, inplace=True)
+- ❌ df.drop('Projetos',axis=0, inplace=True)
+- ❌ new_df =df.drop('Projetos', axis=1)
+- ❌ df.remove('Projetos', axis=1)
 
 ## QUESTION 5
 
-Como você filtraria o DataFrame 'dados' para mostrar apenas os carros onde o 'ano_fabricacao' é maior que 2020, 
-usando o método `.query()`?
+Após usar 'groupby('Curso')', a coluna 'Curso' se torna o índice. Qual método é usado para converter esse índice 
+de volta numa coluna padrão?
 
-- ✅ dados.query('ano_fabricacao > 2020')
-- ❌ dados.filter(ano_fabricacao > 2020)
-- ❌ dados.where('ano_fabricacao > 2020')
-- ❌ dados.query(dados['ano_fabricacao'] > 2020)
+- ❌ .unstack()
+- ❌ .reindex()
+- ✅ .reset_index()
+- ❌ .set_index()
 
 ## QUESTION 6
 
-Para obter a frequência de cada montadora como um percentual do total, qual método e parâmetro devem ser usados 
-na coluna 'montadora'?
+Se você tiver uma função Python 'classificacao(nota)' que retorna uma ‘string’ de categoria de desempenho, 
+como criar uma coluna 'Desempenho' aplicando essa função a cada valor na coluna 'Nota'?
 
-- ✅ .value_counts(normalize=True)
-- ❌ .value_counts(percentage=True)
-- ❌ .count(percentage=True)
-- ❌ .unique(normalize=True)
+- ❌ df['Desempenho'] = df.apply(classificacao, column='Nota')
+- ❌ df['Desempenho'] = df['Nota'].map(classificacao)
+- ✅ df['Desempenho'] = df['Nota'].apply(classificacao)
+- ❌ df['Desempenho'] = classificacao (df['Nota'])
 
 ## QUESTION 7
 
-Qual método fornece um resumo conciso de um DataFrame, incluindo o tipo de dados de cada coluna e 
-o número de valores não nulos?
 
-- ❌ .shape()
-- ❌ .columns()
-- ✅ .info()
-- ❌ .describe()
+Ao carregar um arquivo CSV com o Pandas usando 'pd.read_csv()', qual parâmetro deve ser usado para analisar 
+corretamente os dados em que as colunas são separadas por ponto e vírgula?
+
+- ❌ separator=”;”
+- ✅ sep=”;”
+- ❌ delimiter=”;”
+- ❌ col_sep=”;”
 
 ## QUESTION 8
 
-Para calcular o valor médio de mercado ('valor_mercado') agrupado por cada fabricante ('montadora'), 
-qual é a sintaxe correta?
+Ao criar um gráfico de pizza com a função de plotagem do Matplotlib, qual parâmetro é usado para controlar 
+o formato dos rótulos de porcentagem em cada fatia?
 
-- ❌ dados.group('montadora').mean()
-- ✅ dados.groupby('montadora')['valor_mercado'].mean()
-- ❌ dados.mean('valor_mercado').by('montadora')
-- ❌ dados.select('montadora', 'valor_mercado').mean()
+- ❌ pct_format
+- ❌ legend
+- ✅ autopct
+- ❌ labels
 
 ## QUESTION 9
 
-Qual método fornece um resumo conciso de um DataFrame, incluindo o tipo de dados de cada coluna e 
-o número de valores não nulos?
+Para gerar um gráfico de linha de 'Nota' apenas para o curso 'Excel' de um DataFrame 'df', qual é a sintaxe correta?
 
-- ❌ Primeiro `dados.sum_nulls()` e depois `dados.fill(0)`
-- ❌ Primeiro `dados.fillna(0)` e depois `dados.isnull().sum()`
-- ✅ Primeiro `dados.isnull().sum()` e depois `dados = dados.fillna(0)`
-- ❌ Primeiro `dados.hasnull()` e depois `dados.replace(null, 0)`
-
-## QUESTION 10
-
-Para inspecionar rapidamente as primeiras e as últimas linhas de um DataFrame chamado 'dados', 
-quais são os dois métodos corretos a serem utilizados?
-
-- ✅ .head() e .tail()
-- ❌ .first() e .last()
-- ❌ .start() e .end()
-- ❌ .top() e .bottom()
+- ❌ df.query('Curso== Excel').plot(kind='line', y='Nota')
+- ❌ df.groupby('Curso')['Excel'].plot(kind='line',y='Nota')
+- ✅ df[df['Curso']== 'Excel'].plot(kind='line', y='Nota')
+- ❌ df.plot(kind='line',where='Curso'=='Excel', y='Nota')
