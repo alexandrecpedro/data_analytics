@@ -7,16 +7,21 @@ class BarChartEnum(Enum):
     REVENUE_UNITS_YAXIS_LABEL = 'Revenue (R$)'
 
     UNIT_APPOINTMENTS_SUBHEADER = 'Number of Appointments per Unit'
-    UNIT_APPOINTMENTS_TITLE = 'Appointments per Unit'
+    UNIT_APPOINTMENTS_TITLE = '📈 Appointments per Unit'
     UNIT_APPOINTMENTS_XAXIS_LABEL = 'Unit'
     UNIT_APPOINTMENTS_YAXIS_LABEL = 'Total Appointments'
 
+    BAR_CHART_UPDATE_TRACES_TEXT_FORMAT = 'text_fmt'
+    BAR_CHART_UPDATE_TRACES_TEXT_POSITION = 'outside'
+    BAR_CHART_UPDATE_TRACES_TEXT_TEMPLATE = '%{text}'
+    BAR_CHART_UPDATE_TRACES_TICK_FORMAT = ',d'
+    BAR_CHART_UPDATE_TRACES_TICK_MODE = 'linear'
 
 class DonutChartEnum(Enum):
     APPOINTMENTS_TYPE_FORMAT_VALUES = '.1%'
     APPOINTMENTS_TYPE_LEGEND_TITLE = 'Specialty'
     APPOINTMENTS_TYPE_SUBHEADER = 'Number of Appointments per Specialty'
-    APPOINTMENTS_TYPE_TITLE = 'Appointments per Specialty'
+    APPOINTMENTS_TYPE_TITLE = '🩺 Appointments per Specialty'
     APPOINTMENTS_TYPE_TOOLTIP_TITLE = 'Appointment Type'
 
     MARK_ARC_INNER_RADIUS = 40
