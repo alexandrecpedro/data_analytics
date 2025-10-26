@@ -28,20 +28,3 @@ The dashboard will be built using Streamlit.
 |  01  | [Medical Clinic - Project](./project/medical_clinic.md) |
 |  02  | [Medical Clinic - Code](./project/src/dashboard.py)     |
 
-## 2. GOING DEEP...
-
-| Part | Description                                                                      |
-|:----:|----------------------------------------------------------------------------------|
-|  01  | [DataViz_Streamlit - Medical Clinic](modules/01-dataviz/dataviz_introduction.md) |
-|  02  | [Plot Library - Matplotlib](modules/02-matplotlib/main.ipynb)                    |
-|  03  | [Plot Library - Plotly](modules/03-plotly/main.ipynb)                            |
-|  04  | [Plot Library - Seaborn](modules/04-seaborn/seaborn.md)                          |
-|  05  | [Plot Types](modules/05-plot_types/main.ipynb)                                   |
-|  06  | [Knowledge consolidation - assessment](./topics/knowledge_consolidation.md)      |
-
-## 3. PROPOSED EXERCISES
-
-| Part | Description                                                   |
-|:----:|---------------------------------------------------------------|
-|  01  | [Challenge - Activity 01](./challenge/activity_01/main.ipynb) |
-|  02  | [Challenge - Activity 02](./challenge/activity_02/main.ipynb) |
