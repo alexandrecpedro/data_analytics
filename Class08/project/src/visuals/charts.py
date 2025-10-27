@@ -115,3 +115,45 @@ class ChartBuilder:
 
         final_chart = donut + text
         return final_chart
+
+    @staticmethod
+    def pie_chart(
+            df: pd.DataFrame,
+            names: str,
+            values: str,
+            title: str,
+            title_font_size: int,
+            title_font_color: str,
+            title_x: float,
+            paper_bgcolor: str,
+            plot_bgcolor: str,
+            font_color: str,
+            legend_font_color: str,
+            legend_bgcolor: str,
+            hole: float = 0.0,
+            color_discrete_sequence: list[str] = px.colors.qualitative.Set3,
+    ):
+        """Building pie chart"""
+        chart = px.pie(
+            data_frame=df,
+            names=names,
+            values=values,
+            title=title,
+            hole=hole,
+            color_discrete_sequence=color_discrete_sequence,
+        )
+
+        chart.update_layout(
+            title_x=title_x,
+            title_font=dict(size=title_font_size, color=title_font_color),
+            paper_bgcolor=paper_bgcolor,
+            plot_bgcolor=plot_bgcolor,
+            font=dict(color=font_color),
+            legend=dict(
+                font=dict(color=legend_font_color),
+                bgcolor=legend_bgcolor,
+            )
+        )
+
+        return chart
+

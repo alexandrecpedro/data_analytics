@@ -95,6 +95,7 @@ class DashboardLayout:
         ## Chart 2: Total appointments per unit and per specialty (Donut Chart)
         appointments_type = filtered_df.groupby(DataFieldsEnum.APPOINTMENT_TYPE.value).size().reset_index(
             name=DashboardEnum.TOTAL.value).copy()
+        #### (A) BAR CHART
         # appointments_type_bar_chart = bar_chart(
         #     df=appointments_type,
         #     xaxis=DashboardEnum.TOTAL.value,
@@ -105,13 +106,33 @@ class DashboardLayout:
         #     xaxis_title=BarChartEnum.APPOINTMENTS_TYPE_XAXIS_TITLE.value,
         #     yaxis_title=BarChartEnum.APPOINTMENTS_TYPE_YAXIS_TITLE.value,
         # )
-        appointments_type_donut_chart = ChartBuilder.donut_chart(
+
+        #### (B) DONUT CHART
+        # appointments_type_donut_chart = ChartBuilder.donut_chart(
+        #     df=appointments_type,
+        #     category_field=DataFieldsEnum.APPOINTMENT_TYPE.value,
+        #     value_field=DashboardEnum.TOTAL.value,
+        #     title=DonutChartEnum.APPOINTMENTS_TYPE_TITLE.value
+        # )
+        # col2.altair_chart(altair_chart=appointments_type_donut_chart, use_container_width=True)
+
+        #### (C) PIE CHART
+        appointments_type_pie_donut_chart = ChartBuilder.pie_chart(
             df=appointments_type,
-            category_field=DataFieldsEnum.APPOINTMENT_TYPE.value,
-            value_field=DashboardEnum.TOTAL.value,
-            title=DonutChartEnum.APPOINTMENTS_TYPE_TITLE.value
+            names=DataFieldsEnum.APPOINTMENT_TYPE.value,
+            values=DashboardEnum.TOTAL.value,
+            title=DonutChartEnum.APPOINTMENTS_TYPE_TITLE.value,
+            title_font_size=DonutChartEnum.APPOINTMENTS_TYPE_FONT_SIZE.value,
+            title_font_color=DonutChartEnum.APPOINTMENTS_TYPE_FONT_COLOR.value,
+            title_x=DonutChartEnum.APPOINTMENTS_TYPE_TITLE_X.value,
+            paper_bgcolor=DonutChartEnum.APPOINTMENTS_TYPE_PAPER_BGCOLOR.value,
+            plot_bgcolor=DonutChartEnum.APPOINTMENTS_TYPE_PLOT_BGCOLOR.value,
+            font_color=DonutChartEnum.APPOINTMENTS_TYPE_FONT_COLOR.value,
+            legend_font_color=DonutChartEnum.APPOINTMENTS_TYPE_LEGEND_FONT_COLOR.value,
+            legend_bgcolor=DonutChartEnum.APPOINTMENTS_TYPE_LEGEND_BGCOLOR.value,
+            hole=DonutChartEnum.APPOINTMENTS_TYPE_HOLE.value
         )
-        col2.altair_chart(altair_chart=appointments_type_donut_chart, use_container_width=True)
+        col2.plotly_chart(figure_or_data=appointments_type_pie_donut_chart, config={"responsive": True})
 
         ## Chart 3: Total value per unit and per day (Bar Chart)
         total_value_unit = filtered_df.groupby(DataFieldsEnum.UNIT.value, as_index=False)[
