@@ -28,3 +28,11 @@ The dashboard will be built using Streamlit.
 |  01  | [Medical Clinic - Project](./project/medical_clinic.md) |
 |  02  | [Medical Clinic - Code](./project/src/dashboard.py)     |
 
+## 4. GOING DEEP...
+
+| Part | Description                                                           |
+|:----:|-----------------------------------------------------------------------|
+|  01  | [Sweetviz, Ydata and Pygwalker](codes/sweetviz_ydata_pygwalker.ipynb) |
+|  02  | [Review - Dataviz](codes/review_dataviz.ipynb)                        |
+
+
