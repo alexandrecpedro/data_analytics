@@ -1,0 +1,5 @@
+name,email,course,age
+Denise,denise@gmail.com,Java,45
+Carlos,carlos@gmail.com,Python,35
+Joana,joana@gmail.com,Java,24
+Silvio,silvio@gmail.com,Dados,67

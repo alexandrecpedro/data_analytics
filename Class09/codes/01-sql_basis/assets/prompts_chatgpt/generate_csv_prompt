@@ -1,0 +1,4 @@
+Monte uma lista tipo CSV separado por vírgulas, com os campos
+name,email,course (que podem ser Java, Python, Dados, Excel, BI) and age (entre 18 a 90).
+Preciso de 100 dados aleatórios
+No final exportar como arquivo txt
