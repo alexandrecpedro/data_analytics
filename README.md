@@ -13,8 +13,8 @@ This repository serves as the central hub for the Data Analysis Bootcamp, a hand
 |  05   | [Introduction to Python - part 03](./Class05/python_part03.md) |
 |  06   | [Pandas - part 01](./Class06/pandas_part01.md)                 |
 |  07   | [Dataviz](./Class07/dataviz.md)                                |
-|  08   | []()                                                           |
-|  09   | []()                                                           |
+|  08   | [Streamlit](./Class08/dataviz_streamlit.md)                    |
+|  09   | [SQL and Python](./Class09/sql_python.md)                      |
 |  10   | []()                                                           |
 |  11   | []()                                                           |
 |  12   | []()                                                           |
