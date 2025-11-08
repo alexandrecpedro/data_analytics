@@ -1094,5 +1094,7 @@ FodyWeavers.xsd
 #### Folders
 Class00/
 Class08/example_project/
+Class09/example_project
+Class09/review
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,linux,macos,visualstudio,visualstudiocode,pycharm,pycharm+iml,pycharm+all,intellij+all,intellij+iml,intellij,python,pythonvanilla
