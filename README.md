@@ -15,17 +15,6 @@ This repository serves as the central hub for the Data Analysis Bootcamp, a hand
 |  07   | [Dataviz](./Class07/dataviz.md)                                |
 |  08   | [Streamlit](./Class08/dataviz_streamlit.md)                    |
 |  09   | [SQL and Python](./Class09/sql_python.md)                      |
-|  10   | []()                                                           |
-|  11   | []()                                                           |
-|  12   | []()                                                           |
-|  13   | []()                                                           |
-|  14   | []()                                                           |
-|  15   | []()                                                           |
-|  16   | []()                                                           |
-|  17   | []()                                                           |
-|  18   | []()                                                           |
-|  19   | []()                                                           |
-|  20   | []()                                                           |
 
 ## 2. 📚 BIBLIOGRAPHICAL REFERENCES
 
